@@ -16,7 +16,7 @@ public class TableRow {
     private final int numberOfColumns;
     private final Map<String,Object> fields;
 
-    public TableRow(String[] columns) {
+    public TableRow(String... columns) {
         this(Arrays.asList(columns));
     }
 
