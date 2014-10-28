@@ -2,6 +2,7 @@ package com.cleancoder.base.common.data;
 
 import com.google.common.base.Objects;
 
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
@@ -12,7 +13,7 @@ import java.util.Set;
 /**
  * Created by Leonid on 28.10.2014.
  */
-public class TableRow {
+public class TableRow implements Serializable {
     private final int numberOfColumns;
     private final Map<String,Object> fields;
 
